@@ -1,0 +1,76 @@
+.home-container {
+    height: 300px;
+    color: white;
+    margin-left: 100px;
+    /* background-color: black; */
+}
+
+.home-content h2 {
+    /* padding: 10px; */
+    padding-top: 70px;
+}
+
+.home-content h1 {
+    /* padding: 7px; */
+    color: #e0b50e;
+}
+
+.home-buttons {
+    color: yellow;
+    /* margin-left: 150px; */
+
+}
+
+.btn-hire,
+.btn-cv {
+    color: white;
+    opacity: 70%;
+    /* background-color: #3b8ff3; */
+    /* width: 100px; */
+}
+
+.home-buttons .btn-hire:hover {
+    /* background-color: white; */
+    /* background-color: #3b8ff3; */
+    /* color: white; */
+    /* width: 120px; */
+    transform: scale(1.10);
+    /* transition: 1s; */
+}
+
+.home-buttons .btn-cv {
+    /* background-color: #3b8ff3; */
+    /* color: white; */
+    /* width: 100px; */
+}
+
+.home-buttons .btn-cv:hover {
+    /* background-color: white; */
+    /* background-color: #3b8ff3; */
+    /* color: white; */
+    /* width: 120px; */
+    transform: scale(1.10);
+    /* transition: 1s; */
+    /* opacity: 80%; */
+}
+
+@media(max-width:600px) {
+    .home-container {
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .home-container h2 {
+        font-size: 24px;
+    }
+
+    .home-container h1 {
+        font-size: 24px;
+    }
+
+    .home-container h4 {
+        font-size: 18px;
+        margin-top: 1px;
+    }
+}

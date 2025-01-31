@@ -1,0 +1,72 @@
+.techno .row {
+    margin-left: 70px;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+
+
+
+.rrkstack {
+    margin-top: 60px;
+    padding-left: 130px;
+}
+
+.rrkstack hr {
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.rrkstack h2 {
+    color: #138781;
+    font-weight: bold;
+}
+
+.row .card {
+    /* background-color: red; */
+    cursor: pointer;
+
+}
+
+
+.card-body:hover {
+    background-color: #138781;
+    color: wheat;
+    border: none;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,
+        rgba(0, 0, 0, 0.35) 0px 5px 15px,
+        rgba(0, 0, 0, 0.85) 0px 5px 15px
+        /* cursor: pointer; */
+
+}
+
+.tech-icon {
+    /* color: red; */
+    font-size: 2rem;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.align-self-center-,
+.media-body h5 {
+    font-weight: bold;
+
+}
+
+
+
+@media(max-width:600px) {
+    .rrkstack {
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .techno .row {
+        margin-left: 0px;
+        justify-content: center;
+        /* background-color: red; */
+    }
+}

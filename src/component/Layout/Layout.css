@@ -1,0 +1,46 @@
+.sidebar-section {
+    display: flex;
+    height: 270px;
+    background-color: black;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: #1e1e2c;
+    width: 90px;
+    position: fixed;
+    /* background-color: black; */
+}
+
+.sidebar-toggle {
+    position: fixed;
+    height: 100vh;
+    background-color: #1e1e2c;
+    width: 200px;
+}
+
+.side-toggle-icon {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.side-toggle-icon p svg {
+    background-color: #f29f67;
+    color: white;
+    margin-top: 30px;
+}
+
+
+
+@media(max-width:600px) {
+
+    .sidebar,
+    .sidebar-toggle {
+        display: none;
+    }
+
+
+}
